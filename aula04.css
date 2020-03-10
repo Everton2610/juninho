@@ -1,0 +1,36 @@
+* {
+ margin: 0px auto;
+ padding: 0px;
+}
+
+body{
+   background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+/* Largura de um elemento */
+  width: 800px;
+/*  Centralizando divs/elementos */
+  margin: 0px auto;
+  padding: 50px;
+}
+
+/* a div conteúdo dentro da div site */
+.site .topo{
+ font-family: 'Pacifico', cursive;
+ text-align: center;
+}
+
+.site .conteudo{
+ font-family: 'Ropa Sans', sans-serif;
+ min-height: 300px;
+ margin: 15px 0px;
+ border-top: solid 1px #ADADAD;
+ border-bottom: solid 1px #ADADAD;
+}
+
+.site .rodape{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
