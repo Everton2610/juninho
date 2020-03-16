@@ -1,0 +1,101 @@
+* {
+ margin: 0px auto;
+ padding: 0px;
+}
+
+body{
+   background-color: #DADADA;
+}
+
+.site{
+  background-color: #FFFFFF;
+/* Largura de um elemento */
+  width: 800px;
+/*  Centralizando divs/elementos */
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+/* a div conteúdo dentro da div site */
+.site .topo{
+ font-family: 'Pacifico', cursive;
+ text-align: center;
+}
+
+.site .conteudo{
+ font-family: 'Ropa Sans', sans-serif;
+ min-height: 300px;
+ margin: 15px 0px;
+ padding: 15px 50px;
+ /* border-top: solid 1px #ADADAD; */
+ border-bottom: solid 1px #ADADAD;
+}
+
+.site .rodape{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.botao{
+  font-size: 18px;
+  /* Remove o "underline" de um link */
+  text-decoration: none;
+  padding: 10px 20px;
+  /* Exibe o link como um bloco em linha*/
+  display: inline-block;
+  /* Arredonda a borda dos elementos */
+  border-radius: 30px;
+  color: #000000;
+}
+
+.botao-azul{
+  background-color: #4da6ff;
+  border: solid 1px #0080ff;
+}
+
+.botao-azul:hover{
+  background-color: #80b3ff;
+}
+
+.botao-roxo{
+  background-color: #c61aff;
+  border: solid 1px #8600b3;
+}
+
+.botao-roxo:hover{
+  background-color: #c266ff;
+}
+
+.botao-rosa{
+  background-color: #ff4da6;
+  border: solid 1px #e60073;
+}
+
+.botao-rosa:hover{
+  background-color: #ff66d9;
+}
+
+.menu{
+  background-color: #e6e6ff;
+  margin-top: 20px;
+}
+.menu ul{
+  list-style-type: none;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu a{
+  /* Remove o underline*/
+  text-decoration: none;
+  /* Transforma os links em blocos */
+  display: inline-block;
+  padding: 10px 15px;
+  color: #000000;
+}
+
+.menu a:hover{
+  background-color: #ccccff;
+}
